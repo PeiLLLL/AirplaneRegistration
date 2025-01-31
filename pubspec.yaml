@@ -1,0 +1,37 @@
+name: test1
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.4 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  floor: ^1.4.0
+  sqflite: any
+  cupertino_icons: ^1.0.6
+  shared_preferences: ^2.0.13
+  encrypted_shared_preferences: ^3.0.1
+  dartdoc: ^8.0.8
+
+dev_dependencies:
+  floor_generator: ^1.5.0
+  build_runner: ^2.1.2
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/translations/en.json
+    - assets/translations/fr.json
+    - assets/translations/de.json
+    - assets/translations/tr.json
